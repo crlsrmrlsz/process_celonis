@@ -1,7 +1,8 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
-30;Evaluación de la solicitud;1;Eval. la solicitud
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
+30;Evaluación de la solicitud;1;Eval. sol.
 155;Propuesta de inadmisión;0;Prop. inadmisión
-55;Resolución de Inadmisión;0;Res. Inadm.
-10;Subsanación de datos y/o documentación;0;Subsanación datos y/o documentación
-1;Presentación de solicitud;0;Present. solicitud
+55;Resolución de Inadmisión;0;Resol. Inadm.
+10;Subsanación de datos y/o documentación;0;Subsanación datos y/o doc.
+1;Presentación de solicitud;0;Present. sol.

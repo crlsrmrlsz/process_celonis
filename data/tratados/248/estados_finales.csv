@@ -1,8 +1,9 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
+0;Registro Sol.;0;Reg. Sol.
 100;Fin de Procedimiento;1;Fin proc.
 55;Inadmisión por duplicidad;0;Inadm. duplicidad
-52;Resolución Desestimiento;0;Res. Desestimiento
-51;Resolución Denegatoria;0;Res. Deneg.
+52;Resolución Desestimiento;0;Resol. Desest.
+51;Resolución Denegatoria;0;Resol. Deneg.
 50;Expedición del Carné;0;Expedición Carné
 30;Evaluación de la Solicitud Carné de Alberguista Adulto;0;Eval. la Sol. Carné Alberguista Adulto
 30;Evaluación de la Solicitud Carné de Alberguista Familiar;0;Eval. la Sol. Carné Alberguista Familiar
@@ -13,15 +14,15 @@
 30;Evaluación de la Solicitud Carné de Alberguista Grupo;0;Eval. la Sol. Carné Alberguista Grupo
 30;Evaluación de la Solicitud Carné Joven Europeo;0;Eval. la Sol. Carné Joven Europeo
 30;Evaluación de la Solicitud Carné Internacional de Profesor;0;Eval. la Sol. Carné Internacional Profesor
-25;Trámite de Audiencia Carné de Alberguista Grupo;0;Trám. Aud. Carné Alberguista Grupo
-25;Trámite de Audiencia Carné Internacional de Profesor;0;Trám. Aud. Carné Internacional Profesor
-25;Trámite de Audiencia Carné Internacional de Estudiante;0;Trám. Aud. Carné Internacional Estudiante
-25;Trámite de Audiencia Carné de Alberguista Joven;0;Trám. Aud. Carné Alberguista Joven
-25;Trámite de Audiencia Carné de Alberguista Adulto;0;Trám. Aud. Carné Alberguista Adulto
-25;Trámite de Audiencia Carné Joven Internacional;0;Trám. Aud. Carné Joven Internacional
-25;Trámite de Audiencia Carné de Alberguista Familiar;0;Trám. Aud. Carné Alberguista Familiar
-25;Trámite de Audiencia Carné Joven Europeo;0;Trám. Aud. Carné Joven Europeo
-25;Trámite de Audiencia Carné de Alberguista Joven<25;0;Trám. Aud. Carné Alberguista Joven<25
+25;Trámite de Audiencia Carné de Alberguista Grupo;0;Trám. Audi. Carné Alberguista Grupo
+25;Trámite de Audiencia Carné Internacional de Profesor;0;Trám. Audi. Carné Internacional Profesor
+25;Trámite de Audiencia Carné Internacional de Estudiante;0;Trám. Audi. Carné Internacional Estudiante
+25;Trámite de Audiencia Carné de Alberguista Joven;0;Trám. Audi. Carné Alberguista Joven
+25;Trámite de Audiencia Carné de Alberguista Adulto;0;Trám. Audi. Carné Alberguista Adulto
+25;Trámite de Audiencia Carné Joven Internacional;0;Trám. Audi. Carné Joven Internacional
+25;Trámite de Audiencia Carné de Alberguista Familiar;0;Trám. Audi. Carné Alberguista Familiar
+25;Trámite de Audiencia Carné Joven Europeo;0;Trám. Audi. Carné Joven Europeo
+25;Trámite de Audiencia Carné de Alberguista Joven<25;0;Trám. Audi. Carné Alberguista Joven<25
 10;Requerimiento Documentación Solicitud Carné Internacional de Estudiante;0;Req. Doc. Sol. Carné Internacional Estudiante
 10;Requerimiento Documentación Solicitud Carné de Alberguista Adulto;0;Req. Doc. Sol. Carné Alberguista Adulto
 10;Requerimiento Documentación Solicitud Carné de Alberguista Familiar;0;Req. Doc. Sol. Carné Alberguista Familiar

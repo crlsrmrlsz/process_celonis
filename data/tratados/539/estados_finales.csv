@@ -1,7 +1,8 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-242;Valoración solicitud;1;Valoración solicitud
-100;Fin de procedimiento;1;Fin procedimiento
-52;Resolución de Desistimiento;0;Res. Desist.
-30;Evaluación de solicitud;0;Eval. solicitud
-10;Requerimiento documentación solicitud;0;Req. documentación solicitud
-1;Presentación de solicitud;0;Present. solicitud
+0;Registro Sol.;0;Reg. Sol.
+242;Valoración solicitud;1;Valoración sol.
+100;Fin de procedimiento;1;Fin proc.
+52;Resolución de Desistimiento;0;Resol. Desist.
+30;Evaluación de solicitud;0;Eval. sol.
+10;Requerimiento documentación solicitud;0;Req. doc. sol.
+1;Presentación de solicitud;0;Present. sol.

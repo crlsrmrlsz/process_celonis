@@ -1,6 +1,7 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
+0;Registro Sol.;0;Reg. Sol.
 202;Expediente Anulado;1;Expediente Anulado
-100;Fin de procedimiento;1;Fin procedimiento
-55;Resolución de inadmisión;0;Res. inadmisión
-10;Requerimiento documentación solicitud;0;Req. documentación solicitud
-1;Presentación de solicitud;0;Present. solicitud
+100;Fin de procedimiento;1;Fin proc.
+55;Resolución de inadmisión;0;Resol. inadmisión
+10;Requerimiento documentación solicitud;0;Req. doc. sol.
+1;Presentación de solicitud;0;Present. sol.

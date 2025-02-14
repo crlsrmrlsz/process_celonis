@@ -1,19 +1,20 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
-338;Resolución Denegatoria;0;Res. Deneg.
-315;Propuesta de Resolución Provisional de Concesión;0;Prop. Res. Prov. Conc.
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
+338;Resolución Denegatoria;0;Resol. Deneg.
+315;Propuesta de Resolución Provisional de Concesión;0;Prop. Resol. Provis. Conce.
 286;Presentación de Solicitud Desistimiento;0;Present. Sol. Desist.
-152;Propuesta Resolución de Desistimiento;0;Prop. Res. Desist.
+152;Propuesta Resolución de Desistimiento;0;Prop. Resol. Desist.
 90;Presentación de recurso de alzada;0;Present. recurso alzada
-82;Pago;0;Pg.
-55;Resolución de Inadmisión por presentación extemporánea;0;Res. Inadm. presentación extemporánea
-52;Resolución de Desistimiento;0;Res. Desist.
-50;Resolución de Concesión;0;Res. Conc.
-43;Propuesta de Resolución Definitiva Denegatoria;0;Prop. Res. Def. Deneg.
-42;Propuesta de Resolución Definitiva de Concesión;0;Prop. Res. Def. Conc.
-42;Propuesta Resolución Concesión;0;Prop. Res. Conc.
-41;Propuesta de Resolución Provisional Denegatoria;0;Prop. Res. Prov. Deneg.
+82;Pago;0;Pag.
+55;Resolución de Inadmisión por presentación extemporánea;0;Resol. Inadm. presentación extemporánea
+52;Resolución de Desistimiento;0;Resol. Desist.
+50;Resolución de Concesión;0;Resol. Conce.
+43;Propuesta de Resolución Definitiva Denegatoria;0;Prop. Resol. Defin. Deneg.
+42;Propuesta de Resolución Definitiva de Concesión;0;Prop. Resol. Defin. Conce.
+42;Propuesta Resolución Concesión;0;Prop. Resol. Conce.
+41;Propuesta de Resolución Provisional Denegatoria;0;Prop. Resol. Provis. Deneg.
 30;Evaluacion;0;Evaluacion
-30;Evaluacion de solicitud;0;Evaluacion solicitud
-10;Requerimiento documentacion solicitud;0;Req. documentacion solicitud
-1;Presentacion de solicitud;0;Present. solicitud
+30;Evaluacion de solicitud;0;Evaluacion sol.
+10;Requerimiento documentacion solicitud;0;Req. documentacion sol.
+1;Presentacion de solicitud;0;Present. sol.

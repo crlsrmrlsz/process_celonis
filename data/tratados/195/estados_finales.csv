@@ -1,21 +1,22 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
 286;Presentación Solicitud Desistimiento;0;Present. Sol. Desist.
-285;Resolución de Procedimiento;0;Res. proc.
-284;Propuesta de Resolución de Procedimiento;0;Prop. Res. proc.
-281;Resolución de Revisión;0;Res. Revisión
-278;Resolución de Pérdida de Derecho al Cobro;0;Res. Pérd. Der. Cob.
-82;Pago - Reconocimiento de Obligación (ADO,O);0;Pg. - Reconocimiento Obligación (ADO,O)
-73;Requerimiento Documentación de Justificación;0;Req. Doc. Just.
-70;Justificación de gastos;0;Just. gastos
-53;Resolución de Renuncia;0;Res. Renuncia
-52;Resolución de Desistimiento;0;Res. Desist.
-51;Resolución Desfavorable;0;Res. Desfavorable
-50;Resolución de Concesión;0;Res. Conc.
-43;Propuesta Resolución Desfavorable;0;Prop. Res. Desfavorable
-42;Propuesta Resolución de Concesión;0;Prop. Res. Conc.
-30;Calificación y evaluación de solicitud;0;Calificación evaluación solicitud
+285;Resolución de Procedimiento;0;Resol. proc.
+284;Propuesta de Resolución de Procedimiento;0;Prop. Resol. proc.
+281;Resolución de Revisión;0;Resol. Revisión
+278;Resolución de Pérdida de Derecho al Cobro;0;Resol. Pérd. Dere. Cobr.
+82;Pago - Reconocimiento de Obligación (ADO,O);0;Pag. - Reconocimiento Obligación (ADO,O)
+73;Requerimiento Documentación de Justificación;0;Req. Doc. Justif.
+70;Justificación de gastos;0;Justif. gastos
+53;Resolución de Renuncia;0;Resol. Renun.
+52;Resolución de Desistimiento;0;Resol. Desist.
+51;Resolución Desfavorable;0;Resol. Desfavorable
+50;Resolución de Concesión;0;Resol. Conce.
+43;Propuesta Resolución Desfavorable;0;Prop. Resol. Desfavorable
+42;Propuesta Resolución de Concesión;0;Prop. Resol. Conce.
+30;Calificación y evaluación de solicitud;0;Calificación evaluación sol.
 25;Trámite de audiencia;0;Trám. audiencia
 21;Presentación de renuncia;0;Present. renuncia
-10;Requerimiento de documentación;0;Req. documentación
+10;Requerimiento de documentación;0;Req. doc.
 1;Presentación de Solicitud;0;Present. Sol.

@@ -1,7 +1,8 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
-51;Resolución Desestimatoria - Incumplimiento de Requisitos;1;Res. Desest. - Incumplimiento Req.
-50;Resolución Estimatoria de Concesión;1;Res. Est. Conc.
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
+51;Resolución Desestimatoria - Incumplimiento de Requisitos;1;Resol. Desest. - Incumplimiento Req.
+50;Resolución Estimatoria de Concesión;1;Resol. Estim. Conce.
 55;Duplicidad de Expediente;0;Duplicidad Expediente
-30;Evaluación de solicitud;0;Eval. solicitud
-1;Presentación de solicitud;0;Present. solicitud
+30;Evaluación de solicitud;0;Eval. sol.
+1;Presentación de solicitud;0;Present. sol.

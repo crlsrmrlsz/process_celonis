@@ -1,18 +1,19 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin procedimiento;1;Fin procedimiento
+0;Registro Sol.;0;Reg. Sol.
+100;Fin procedimiento;1;Fin proc.
 309;Lista de Reserva;0;Lista Reserva
-290;Plaza asignada -Adjudicación Definitiva-;0;Plaza asignada -Adjudicación Def.-
-224;Desestimación al Recurso;0;Desestimación Rec.
-223;Estimación al Recurso;0;Estimación Rec.
-220;Recurso;0;Rec.
-55;Resolución de Inadmisión;0;Res. Inadm.
-52;Resolución Desistimiento;0;Res. Desist.
-51;Resolución Denegatoria;0;Res. Deneg.
-50;Resolución aprobatoria;0;Res. aprobatoria
-50;Resolución aprobatoria Condicionada;0;Res. aprobatoria Condicionada
-43;Propuesta Definitiva Resolución Denegatoria;0;Prop. Def. Res. Deneg.
-30;Comprobación de Requisitos;0;Comprobación Req.
-21;Presentación de Renuncia;0;Present. Renuncia
-21;Presentación de Renuncia Justificada;0;Present. Renuncia Justificada
+290;Plaza asignada -Adjudicación Definitiva-;0;Plaza asignada -Adjud. Defin.-
+224;Desestimación al Recurso;0;Desestimación Recur.
+223;Estimación al Recurso;0;Estimación Recur.
+220;Recurso;0;Recur.
+55;Resolución de Inadmisión;0;Resol. Inadm.
+52;Resolución Desistimiento;0;Resol. Desist.
+51;Resolución Denegatoria;0;Resol. Deneg.
+50;Resolución aprobatoria;0;Resol. aprobatoria
+50;Resolución aprobatoria Condicionada;0;Resol. aprobatoria Condicionada
+43;Propuesta Definitiva Resolución Denegatoria;0;Prop. Defin. Resol. Deneg.
+30;Comprobación de Requisitos;0;Comprob. Req.
+21;Presentación de Renuncia;0;Present. Renun.
+21;Presentación de Renuncia Justificada;0;Present. Renun. Jusif.a
 10;Requerimiento Documentación;0;Req. Doc.
-1;Presentación de solicitud;0;Present. solicitud
+1;Presentación de solicitud;0;Present. sol.

@@ -1,13 +1,14 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
 404;Actualización en el Registro;0;Actualización el Reg.
-90;Recurso de Alzada;0;Rec. Alzada
-55;Inadmisión de solicitud;0;Inadm. solicitud
-52;Resolución de Desistimiento;0;Res. Desist.
-51;Resolución Desfavorable;0;Res. Desfavorable
-50;Resolución de Concesión;0;Res. Conc.
-41;Propuesta de Resolucion Desfavorable;0;Prop. Res. Desfavorable
+90;Recurso de Alzada;0;Recur. Alzada
+55;Inadmisión de solicitud;0;Inadm. sol.
+52;Resolución de Desistimiento;0;Resol. Desist.
+51;Resolución Desfavorable;0;Resol. Desfavorable
+50;Resolución de Concesión;0;Resol. Conce.
+41;Propuesta de Resolucion Desfavorable;0;Prop. Resol. Desfavorable
 40;Propuesta de resolucion Favorable;0;Prop. res. Favorable
 26;Información Pública;0;Información Pública
-10;Requerimiento documentación solicitud;0;Req. documentación solicitud
-1;Presentación de solicitud;0;Present. solicitud
+10;Requerimiento documentación solicitud;0;Req. doc. sol.
+1;Presentación de solicitud;0;Present. sol.

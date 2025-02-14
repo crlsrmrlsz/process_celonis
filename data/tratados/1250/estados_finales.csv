@@ -1,13 +1,14 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento;1;Fin procedimiento
-286;Presentación solicitud de desistimiento;0;Present. solicitud desistimiento
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento;1;Fin proc.
+286;Presentación solicitud de desistimiento;0;Present. sol. desistimiento
 82;Liquidación;0;Liq.
-52;Resolución de desistimiento;0;Res. desistimiento
-51;Resolución Desfavorable;0;Res. Desfavorable
-50;Resolución de Concesión;0;Res. Conc.
-43;Propuesta Definitiva de Resolución Desfavorable;0;Prop. Def. Res. Desfavorable
-42;Propuesta Definitiva Resolución Concesión;0;Prop. Def. Res. Conc.
-40;Propuesta Provisional Resolución Concesión;0;Prop. Prov. Res. Conc.
-30;Evaluación de solicitud;0;Eval. solicitud
-10;Requerimiento documentación solicitud;0;Req. documentación solicitud
-1;Presentación de solicitud;0;Present. solicitud
+52;Resolución de desistimiento;0;Resol. desistimiento
+51;Resolución Desfavorable;0;Resol. Desfavorable
+50;Resolución de Concesión;0;Resol. Conce.
+43;Propuesta Definitiva de Resolución Desfavorable;0;Prop. Defin. Resol. Desfavorable
+42;Propuesta Definitiva Resolución Concesión;0;Prop. Defin. Resol. Conce.
+40;Propuesta Provisional Resolución Concesión;0;Prop. Provis. Resol. Conce.
+30;Evaluación de solicitud;0;Eval. sol.
+10;Requerimiento documentación solicitud;0;Req. doc. sol.
+1;Presentación de solicitud;0;Present. sol.

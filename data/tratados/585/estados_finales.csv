@@ -1,4 +1,5 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento MCO;1;Fin procedimiento MCO
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento MCO;1;Fin proc. MCO
 122;Comunicación a gestores de inicio de medidas;0;Comunicación gestores inicio medidas
-1;Presentación y gestion de solicitud Medidas Covid;0;Present. gestion solicitud Medidas Covid
+1;Presentación y gestion de solicitud Medidas Covid;0;Present. gestion sol. Medidas Covid

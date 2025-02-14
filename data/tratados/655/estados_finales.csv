@@ -1,8 +1,9 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
-100;Fin de procedimiento ;1;Fin procedimiento 
-82;Tramite de Pago al beneficiario;0;Tramite Pg. beneficiario
-50;Resolución reconomiento de la ayuda y el abono;0;Res. reconomiento la ayuda el abono
-42;Propuesta Resolución reconocimiento de la ayuda y el abono;0;Prop. Res. reconocimiento la ayuda el abono
-30;Evaluación de la solicitud;0;Eval. la solicitud
+0;Registro Sol.;0;Reg. Sol.
+100;Fin de procedimiento ;1;Fin proc. 
+82;Tramite de Pago al beneficiario;0;Tramite Pag. beneficiario
+50;Resolución reconomiento de la ayuda y el abono;0;Resol. reconomiento la ayuda el abono
+42;Propuesta Resolución reconocimiento de la ayuda y el abono;0;Prop. Resol. reconocimiento la ayuda el abono
+30;Evaluación de la solicitud;0;Eval. sol.
 10;Requerimiento de documentacion;0;Req. documentacion
-1;Presentacion de solicitud;0;Present. solicitud
+1;Presentacion de solicitud;0;Present. sol.

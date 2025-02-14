@@ -1,4 +1,5 @@
 ﻿NUMTRAM;DENOMINACION;FINAL;DENOMINACION_SIMPLE
+0;Registro Sol.;0;Reg. Sol.
 100;Fin de Procedimiento;1;Fin proc.
 328;Devolucion Obra;0;Devolucion Obra
 327;Comunicacion Devolucion Obra;0;Comunicacion Devolucion Obra
@@ -6,15 +7,15 @@
 294;Informe Comite Tecnico;0;Inf. Comite Tecnico
 293;Informe de Candidaturas Excluidas ;0;Inf. Candidaturas Excluidas 
 234;Presentacion Objeto Premio;0;Present. Objeto Premio
-82;Abono Premio;0;Ab. Premio
-52;Resolucion Desistimiento;0;Res. Desist.
-51;Resolucion de Exclusion no Presentado;0;Res. Exclusion no Presentado
-51;Resolucion Desestimatoria;0;Res. Desest.
-51;Resolucion de No-Concesion;0;Res. No-Concesion
-51;Resolucion de Exclusion no Coincide;0;Res. Exclusion no Coincide
-50;Resolucion Favorable;0;Res. Favorable
+82;Abono Premio;0;Abo. Premio
+52;Resolucion Desistimiento;0;Resol. Desist.
+51;Resolucion de Exclusion no Presentado;0;Resol. Exclusion no Presentado
+51;Resolucion Desestimatoria;0;Resol. Desest.
+51;Resolucion de No-Concesion;0;Resol. No-Concesion
+51;Resolucion de Exclusion no Coincide;0;Resol. Exclusion no Coincide
+50;Resolucion Favorable;0;Resol. Favorable
 30;Evaluacion Comite Tecnico;0;Evaluacion Comite Tecnico
 30;Reevaluacion ;0;Reevaluacion 
-30;Evaluacion de solicitud;0;Evaluacion solicitud
+30;Evaluacion de solicitud;0;Evaluacion sol.
 10;Requerimiento de Informacion Complementaria;0;Req. Informacion Complementaria
-1;Presentacion solicitud;0;Present. solicitud
+1;Presentacion solicitud;0;Present. sol.

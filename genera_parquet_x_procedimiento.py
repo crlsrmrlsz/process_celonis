@@ -53,8 +53,7 @@ for value in all_values:
         output_path_df2 = os.path.join(folder, 'tramites.parquet')
         groups2[value].to_parquet(output_path_df2, engine='pyarrow', index=False)
         
-        
-        
+    
         
 # # -*- coding: utf-8 -*-
 # """
@@ -100,20 +99,21 @@ for value in all_values:
 #         # Procesar trámites para generar el acumulado
 #         df_tramites_proc = groups_tramites[procedure].copy()
         
+#         # seleccionar solo las columnas de interés
+#         df_tramites_proc = df_tramites_proc[['id_exp','fecha_tramite', 'num_tramite']]
+        
 #         # Ordenar por id_exp y fecha_tramite para calcular end_date
 #         df_tramites_sorted = df_tramites_proc.sort_values(['id_exp', 'fecha_tramite'])
         
 #         # Calcular end_date como la siguiente fecha_tramite del mismo id_exp
 #         df_tramites_sorted['end_date'] = df_tramites_sorted.groupby('id_exp')['fecha_tramite'].shift(-1)
         
-#         # Renombrar fecha_tramite a fecha
-#         df_tramites_sorted.rename(columns={'fecha_tramite': 'fecha'}, inplace=True)
         
-#         max_date = df_tramites_sorted['fecha'].max()
+#         max_date = df_tramites_sorted['fecha_tramite'].max()
         
 #         expanded_rows = []
 #         for _, row in df_tramites_sorted.iterrows():
-#             start = row['fecha']
+#             start = row['fecha_tramite']
 #             end = row['end_date']
             
 #             if pd.notnull(end):
@@ -125,18 +125,18 @@ for value in all_values:
             
 #             for date in date_range:
 #                 expanded_rows.append({
-#                     'fecha': date,
-#                     'desc_tramite': row['desc_tramite']
+#                     'fecha_tramite': date,
+#                     'num_tramite': row['num_tramite']
 #                 })
         
 #         expanded_df = pd.DataFrame(expanded_rows)
         
 #         if not expanded_df.empty:
-#             aggregated_df = expanded_df.groupby(['fecha', 'desc_tramite']).size().reset_index(name='count')
-#             pivot_df = aggregated_df.pivot(index='fecha', columns='desc_tramite', values='count').fillna(0).astype(int)
+#             aggregated_df = expanded_df.groupby(['fecha_tramite', 'num_tramite']).size().reset_index(name='count')
+#             pivot_df = aggregated_df.pivot(index='fecha_tramite', columns='num_tramite', values='count').fillna(0).astype(int)
 #             pivot_df.reset_index(inplace=True)
 #         else:
-#             pivot_df = pd.DataFrame(columns=['fecha'])
+#             pivot_df = pd.DataFrame(columns=['fecha_tramite'])
         
 #         acumulado_path = os.path.join(procedure_folder, 'tramites_acumulado.parquet')
 #         pivot_df.to_parquet(acumulado_path, engine='pyarrow', index=False)

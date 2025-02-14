@@ -31,53 +31,53 @@ df['NPROCADMI']=df['NPROCADMI'].astype(int)
 
 # Define the mapping dictionary for simplifications
 simplifications = {
-    "Resolución": "Res.",
-    "Resolucion": "Res.",
+    "Resolución": "Resol.",
+    "Resolucion": "Resol.",
     "Propuesta": "Prop.",
-    "Recurso": "Rec.",
+    "Recurso": "Recur.",
     "Desistimiento": "Desist.",
     "Desestimatoria": "Desest.",
     "Evaluación": "Eval.",
     "Liquidacion": "Liq.",
     "Liquidación": "Liq.",
-    "Justificación": "Just.",
+    "Justificación": "Justif.",
     "Solicitud": "Sol.",
     "Requerimiento": "Req.",
-    "Abono": "Ab.",
-    "Pago": "Pg.",
+    "Abono": "Abo.",
+    "Pago": "Pag.",
     "Pérdida": "Pérd.",
     "Trámite": "Trám.",
     "Inicio": "Inic.",
-    "Derecho": "Der.",
-    "Cobro": "Cob.",
+    "Derecho": "Dere.",
+    "Cobro": "Cobr.",
     "Prórroga": "Prór.",
-    "Provisional": "Prov.",
+    "Provisional": "Provis.",
     "Denegatoria": "Deneg.",
-    "Concesión": "Conc.",
+    "Concesión": "Conce.",
     "Falta": "Falt.",
     "Informe": "Inf.",
-    "Audiencia": "Aud.",
+    "Audiencia": "Audi.",
     "Inadmisión": "Inadm.",
-    "Estimatoria": "Est.",
+    "Estimatoria": "Estim.",
     "Documentación": "Doc.",
-    "Definitiva": "Def.",
+    "Definitiva": "Defin.",
     "Trimestre": "Trim.",
-    "Emplazamiento": "Empl.",
+    "Emplazamiento": "Emplaz.",
     "Registro": "Reg.",
     "Censo": "Cens.",
-    "Resoluciones": "Res.",
+    "Resoluciones": "Resol.",
     "Propuestas": "Prop.",
-    "Recursos": "Rec.",
-    "Presentaciones": "Pre.",
+    "Recursos": "Recur.",
+    "Presentaciones": "Present.",
     "Desistimientos": "Desist.",
     "Desestimatorias": "Desest.",
     "Evaluaciones": "Eval.",
     "Liquidaciones": "Liq.",
-    "Justificaciones": "Just.",
+    "Justificaciones": "Justif.",
     "Solicitudes": "Sol.",
     "Requerimientos": "Req.",
-    "Abonos": "Ab.",
-    "Pagos": "Pg.",
+    "Abonos": "Abo.",
+    "Pagos": "Pag.",
     "Pérdidas": "Pérd.",
     "Trámites": "Trám.",
     "Inicios": "Inic.",
@@ -124,7 +124,21 @@ simplifications = {
     " de la ": " ",
 
     # Normalize multiple spaces
-    "  ": " "
+    "  ": " ",
+    "documentación": "doc.",
+    "Insuficiencia": "Insuf.",
+    "desestimatoria": "desest.",
+    "Renuncia":"Renun.",
+    "Justificativa": "Justif.",
+    "procedimiento": "proc.",
+    "solicitud": "sol.",
+    "la solicitud": "sol.",
+    "Discapacidad": "Discap.",
+    "Comprobación":"Comprob.",
+    "Adjudicación": "Adjud.",
+    "Justificad": "Jusif.",
+    "Desestimiento": "Desest."
+    
 }
 
 
@@ -185,11 +199,19 @@ for proc_id in process_ids:
         axis=1
     )
     
+    
+    # añadimos el estado inicial, registro
+    new_data = pd.DataFrame([{'NUMTRAM': '0', 'DENOMINACION': 'Registro Sol.', 'FINAL': '0'}])
+    all_states = pd.concat([all_states, new_data], ignore_index=True)
+    
     # (Optional) Sort the states by NUMTRAM for readability
     all_states = all_states.sort_values(by=['FINAL', 'NUMTRAM'], ascending=[False, False])
     
     # Apply the simplification function to create a new column.
     all_states['DENOMINACION_SIMPLE'] = all_states['DENOMINACION'].apply(simplify_denom)
+    
+    
+
     
     # --- Step 5: Export the CSV ---
     # Create a folder with the name of the process type (if it doesn't already exist)

@@ -102,7 +102,7 @@ for codigo_procedimiento in codigos_procedimientos:
         
         folder_procedimiento_acc = os.path.join(folder_path_tratados_acc, str(codigo_procedimiento))
         
-        acumulado_path = os.path.join(folder_procedimiento, 'tramites_acumulado.parquet')
+        acumulado_path = os.path.join(folder_procedimiento_acc, 'tramites_acumulado.parquet')
         pivot_df.to_parquet(acumulado_path, engine='pyarrow', index=False)
         print("generado parquet diario")
         # ---- New Code: Aggregación semanal ----
@@ -117,6 +117,6 @@ for codigo_procedimiento in codigos_procedimientos:
         weekly_df.drop(columns=['fecha_tramite'], inplace=True)
         
         # Guardamos el DataFrame semanal en un archivo parquet
-        acumulado_semanal_path = os.path.join(folder_procedimiento, 'tramites_acumulado_semanal.parquet')
+        acumulado_semanal_path = os.path.join(folder_procedimiento_acc, 'tramites_acumulado_semanal.parquet')
         weekly_df.to_parquet(acumulado_semanal_path, engine='pyarrow', index=False)
         print("generado parquet semanal")
